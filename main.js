@@ -10,7 +10,8 @@ mainWindow = new BrowserWindow({
     height: 600,
     webPreferences: {
     nodeIntegration: true
-    }
+    },
+    frame: false
 })
 
 mainWindow.loadURL(
