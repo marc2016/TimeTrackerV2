@@ -20,6 +20,10 @@ export const routes: Routes = [
       {
         path: 'dashboard',
         loadChildren: () => import('./views/dashboard/dashboard.module').then(m => m.DashboardModule)
+      },
+      {
+        path: 'timerlist',
+        loadChildren: () => import('./views/timerlist/timerlist.module').then(m => m.TimerlistModule)
       }
     ]
   }
