@@ -1,0 +1,11 @@
+  
+{
+    "type": "sqlite",
+    "synchronize": true,
+    "logging": true,
+    "logger": "simple-console",
+    "database": "timetracker.sqlite",
+    "entities": [
+      "src/entity/*.js"
+    ]
+  }
