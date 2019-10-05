@@ -6,6 +6,9 @@
     "logger": "simple-console",
     "database": "timetracker.sqlite",
     "entities": [
-      "src/entity/*.js"
-    ]
+      "src/app/data-access/migrations/*.js"
+    ],
+    "cli": {
+        "migrationsDir": "src/app/data-access/migrations"
+    }
   }
