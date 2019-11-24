@@ -9,7 +9,8 @@
     "paths": {
       "@angular/*": [
         "../node_modules/@angular/*"
-      ]
+      ],
+      "typeorm": ["../node_modules/typeorm/typeorm-model-shim.js"]
     }
   },
   "angularCompilerOptions": {

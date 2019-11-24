@@ -21,4 +21,9 @@ export class DatabaseService {
         };
         this.connection = createConnection(this.options);
     }
+
+    async runMigrations(): Promise<any> {
+        const db = await this.connection
+        return db.runMigrations()
+    }
 }
